@@ -39,13 +39,20 @@ button{
 }
 button:hover{
     background-color: rgb(113, 112, 112);
+    animation: 1s;
 }
 .operator-btn{
     background-color: orange;
 }
 .operator-btn:hover{
     background-color: yellowgreen;
+    animation: 1s;
 }
 .operator-btn:active{
     background-color: hsl(35,100%,75%);
+}
+.content{
+    justify-content: center;
+    color: white;
+    font-size: medium;
 }
