@@ -1,60 +1,75 @@
 body{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: 'Poppins', sans-serif;
 }
 #calculater{
-    font-family: arial,suns-serif;
-    background-color: rgb(23, 22, 22);
-    width: 450px;
-    overflow: hidden;
-    
+    background-color: #222;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 280px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.3); 
 }
+#calculatetr{
+  background: #222;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+  width: 280px;
+}
+
 #display{
-    width: 100%;
-    padding: 20px;
-    font-size: 5rem;
-    text-align: left;
-    border: none;
-    background-color: hsl(0,0%,20%);
+ 
+  height: 70px;
+  font-size: 24px;
+  text-align: right;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: #544c4c;
+  color: white;
+  margin-bottom: 1px;
+ 
 }
-#key{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 25px;
+
+#keys{
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  
 }
+
 button{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: none;
-    background-color: rgb(62, 54, 54);
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    cursor: pointer;
+width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background: #444;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition:  0.2s;
+ 
 }
-button:hover{
-    background-color: rgb(113, 112, 112);
-    animation: 1s;
+
+button:hover {
+  background: #555;
 }
-.operator-btn{
-    background-color: orange;
+
+.operator-btn {
+  background: #ff9500;
+
 }
-.operator-btn:hover{
-    background-color: yellowgreen;
-    animation: 1s;
+.operator-btn1{
+    background-color: #667eea;
 }
-.operator-btn:active{
-    background-color: hsl(35,100%,75%);
+.operator-btn1:hover {
+  background: #6031cd;
 }
-.content{
-    font-size: large;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    
+
+.operator-btn:hover {
+  background: #e08b00;
 }
+
