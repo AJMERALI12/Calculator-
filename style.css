@@ -23,6 +23,8 @@ body{
 }
 
 #display{
+  margin-top: 10px;
+  width: 250px;
  
   height: 70px;
   font-size: 24px;
@@ -39,6 +41,7 @@ body{
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
   
+  
 }
 
 button{
@@ -51,7 +54,9 @@ width: 60px;
   font-size: 20px;
   cursor: pointer;
   transition:  0.2s;
- 
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
 }
 
 button:hover {
